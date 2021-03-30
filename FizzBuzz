@@ -1,0 +1,33 @@
+public class Main{ 
+
+  
+
+     public static void main(String []args){ 
+
+         
+
+        for (int i = 1; i <= 55; i++)  
+
+{ 
+
+    if (((i % 5) == 0) && ((i % 7) == 0)) // Кратно 5 и 7 
+
+        System.out.println(i + " - It's fizzbuzz"); 
+
+    else if ((i % 5) == 0) // Кратно 5 
+
+        System.out.println(i + " - It's fizz"); 
+
+    else if ((i % 7) == 0) // Кратно 7 
+
+        System.out.println(i + " - It's buzz"); 
+
+    else 
+
+        System.out.println(i + " - no"); // Не кратно 5 или 7 
+
+} 
+
+     } 
+
+} 
